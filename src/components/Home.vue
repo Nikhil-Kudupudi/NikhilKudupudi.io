@@ -22,6 +22,13 @@
             <li class="nav-item">
               <router-link to="/projects" class="nav-link" active-class="active">Projects</router-link>
             </li>
+                        <li class="nav-item">
+              <router-link to="/experience" class="nav-link" active-class="active">Experience</router-link>
+            </li>
+                        <li class="nav-item">
+              <router-link to="/certifications" class="nav-link" active-class="active">Certifications</router-link>
+            </li>
+            
           </ul>
         </div>
       </div>
@@ -38,12 +45,12 @@ export default {
 
 <style>
 .nav-link{
-    font-size: 24px;
+    font-size: 18px;
 }
 .custom-navbar {
   background: linear-gradient(135deg, #eef3f5, #000000);/* Silver gradient *//* Metallic gradient */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Adds shadow to the navbar */
-  border-radius: 20px; /* Rounds the edges of the navbar */
+  border-radius: 5px; /* Rounds the edges of the navbar */
   position: relative; /* Needed for the pseudo-elements */
   overflow: hidden; /* Ensures no overflow from border radius */
   padding: 10px 20px; /* Add padding for aesthetics */
